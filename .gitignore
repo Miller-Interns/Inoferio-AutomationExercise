@@ -1,0 +1,7 @@
+.env
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
+.cache/
