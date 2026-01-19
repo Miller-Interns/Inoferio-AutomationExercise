@@ -105,7 +105,7 @@ wait.until(ExpectedConditions.elementToBeClickable(publishBtn)).click()
 
 KeywordUtil.logInfo('Announcement published successfully')
 
-By successToast = By.xpath('/html/body/div[5]/div/div/div')
+By successToast = By.xpath('/html/body/div[5]/div/div/div') //absolute xpath, no ID for success toast
 
 wait.until(ExpectedConditions.visibilityOfElementLocated(successToast))
 
