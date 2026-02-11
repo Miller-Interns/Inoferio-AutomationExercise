@@ -1,3 +1,54 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Verify Sorting - Dashboard/Page_Miller Employee Portal/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.p-icon.p-datatable-sort-icon \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Verify Sorting - Dashboard/Page_Miller Employee Portal/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Badlis - Payment History Filter/Page_Miller Employee Portal/input_Filter by_pv_id_1_92",
+      "brokenLocator": "//input[@id\u003d\u0027pv_id_1_92\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[@id\u003d\u0027payment-hisitory-date-filter\u0027]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My Badlis - Payment History Filter/Page_Miller Employee Portal/input_Filter by_pv_id_1_92_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Sorting - Badlis History/Page_Miller Employee Portal/button_Badlis History",
+      "brokenLocator": "//button[@id\u003d\u0027badlis-history-tab\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027₱ 150\u0027])[1]/following::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Sorting - Badlis History/Page_Miller Employee Portal/button_Badlis History_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Filter and Search bar - Badlis Records/Page_Miller Employee Portal/span_Deactivated",
+      "brokenLocator": "//li[@id\u003d\u0027badlis-records-status-filter_2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Active\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Filter and Search bar - Badlis Records/Page_Miller Employee Portal/span_Deactivated_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Add Payment/Page_Miller Employee Portal/span_2150_p-button-icon pi pi-wallet",
+      "brokenLocator": "//div[@id\u003d\u0027pv_id_1_3_tabpanel_0\u0027]/div/div/div[2]/div/div/div/table/tbody/tr/td[6]/div/button[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[6]/div/button[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Add Payment/Page_Miller Employee Portal/span_2150_p-button-icon pi pi-wallet_position.png"
+    }
+  ]
 }
