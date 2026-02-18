@@ -122,24 +122,62 @@ class HRBadlisPaginationAcrossTabsSteps {
 		WebUI.delay(1)
 	}
 
+	// Use the visible tab's paginator only (each tab has its own; global click hits the first in DOM = wrong tab)
+	private static final By PAGINATOR_NEXT = By.xpath("//button[contains(@class,'p-paginator-next')] | //button[@aria-label='Next Page' or @aria-label='Next']")
+	private static final By PAGINATOR_PREV = By.xpath("//button[contains(@class,'p-paginator-prev')] | //button[@aria-label='Previous Page' or @aria-label='Previous']")
+
 	private void clickPageNumberIfPresent(String num) {
-		By pageBtn = By.xpath("//button[normalize-space()='${num}' and contains(@class,'p-paginator')] | //a[normalize-space()='${num}']")
-		if (driver.findElements(pageBtn).size() > 0) {
-			try { wait.until(ExpectedConditions.elementToBeClickable(pageBtn)).click(); WebUI.delay(1) } catch (Exception e) {}
+		// Find the visible paginator container first (the one in the active tab), then the page number inside it
+		def paginatorContainers = driver.findElements(By.xpath("//div[contains(@class,'p-paginator') and contains(@class,'p-component')]"))
+		def visibleContainer = paginatorContainers.find { it.isDisplayed() }
+		if (visibleContainer == null) return
+		// Page "2" can be (text()='2' or .='2') per PrimeVue; look inside the visible paginator only
+		def pageBtns = visibleContainer.findElements(By.xpath(".//button[contains(@class,'p-paginator-page') and (normalize-space(.)='${num}' or .='${num}' or text()='${num}')]"))
+		if (pageBtns.size() == 0) return
+		def btn = pageBtns.get(0)
+		try {
+			js.executeScript("arguments[0].scrollIntoView({block:'center'});", btn)
+			WebUI.delay(0.3)
+			wait.until(ExpectedConditions.elementToBeClickable(btn))
+			btn.click()
+			WebUI.delay(1)
+		} catch (Exception e) {
+			js.executeScript("arguments[0].click();", btn)
+			WebUI.delay(1)
 		}
 	}
 
 	private void clickPaginatorNext() {
-		By next = By.xpath("//button[@aria-label='Next'] | //span[contains(@class,'pi-chevron-right')]/parent::*")
-		if (driver.findElements(next).size() > 0) {
-			try { wait.until(ExpectedConditions.elementToBeClickable(next)).click(); WebUI.delay(0.5) } catch (Exception e) {}
+		def nextBtns = driver.findElements(PAGINATOR_NEXT)
+		def visible = nextBtns.find { it.isDisplayed() }
+		if (visible != null) {
+			try {
+				js.executeScript("arguments[0].scrollIntoView({block:'center'});", visible)
+				WebUI.delay(0.3)
+				wait.until(ExpectedConditions.elementToBeClickable(visible))
+				visible.click()
+				WebUI.delay(0.5)
+			} catch (Exception e) {
+				js.executeScript("arguments[0].click();", visible)
+				WebUI.delay(0.5)
+			}
 		}
 	}
 
 	private void clickPaginatorPrev() {
-		By prev = By.xpath("//button[@aria-label='Previous'] | //span[contains(@class,'pi-chevron-left')]/parent::*")
-		if (driver.findElements(prev).size() > 0) {
-			try { wait.until(ExpectedConditions.elementToBeClickable(prev)).click(); WebUI.delay(0.5) } catch (Exception e) {}
+		def prevBtns = driver.findElements(PAGINATOR_PREV)
+		def visible = prevBtns.find { it.isDisplayed() }
+		if (visible != null) {
+			try {
+				js.executeScript("arguments[0].scrollIntoView({block:'center'});", visible)
+				WebUI.delay(0.3)
+				wait.until(ExpectedConditions.elementToBeClickable(visible))
+				visible.click()
+				WebUI.delay(0.5)
+			} catch (Exception e) {
+				js.executeScript("arguments[0].click();", visible)
+				WebUI.delay(0.5)
+			}
 		}
 	}
 

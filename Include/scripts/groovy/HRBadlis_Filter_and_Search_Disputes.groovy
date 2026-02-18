@@ -34,6 +34,14 @@ class HRBadlisFilterAndSearchDisputesSteps {
 	private static final By BADLIS_RECORDS_MENU = By.xpath("//*[normalize-space()='Badlis Records']")
 	private static final By DISPUTES_TAB = By.xpath('//*[@id="admin-disputes-tab"]')
 
+	// Disputes tab scope and filter elements (by id) so we don't click wrong tab's date/status or the Status column
+	private static final By DISPUTES_DATE_INPUT = By.xpath("//*[@id='disputes-date-filter']//input | //span[@id='disputes-date-filter']/input")
+	private static final By DISPUTES_STATUS_DROPDOWN = By.xpath("//*[@id='disputes-status-filter']/div | //*[@id='disputes-status-filter']")
+	private static final By DISPUTES_CLEAR_FILTERS = By.xpath("//button[@id='clear-filters-button'] | //button[.//span[normalize-space()='Clear Filters']]")
+	private static final By DISPUTES_SEARCH_INPUT = By.xpath("//input[@id='disputes-search-input'] | //div[@id='disputes-search-bar']//input")
+	private static final String DISPUTES_DATEPICKER_PANEL = "//div[@id='disputes-date-filter_panel']"
+	private static final String DATEPICKER_PANEL_FALLBACK = "//div[contains(@id,'_panel') and .//table[contains(@class,'p-datepicker-day-view')]]"
+
 	@Before("@HRBadlisFilterAndSearchDisputes")
 	def beforeScenario() {
 		loadEnvVariables()
@@ -95,48 +103,109 @@ class HRBadlisFilterAndSearchDisputesSteps {
 	@When("the user applies date and status filters then clears filters on Disputes")
 	def applyDateAndStatusFiltersThenClearOnDisputes() {
 		WebUI.delay(1)
-		By date28 = By.xpath("//span[normalize-space()='28']")
-		if (driver.findElements(date28).size() > 0) {
-			wait.until(ExpectedConditions.elementToBeClickable(date28)).click()
+		// 1. Date filter: open Disputes datepicker and select a day (e.g. 11)
+		def dateInputs = driver.findElements(DISPUTES_DATE_INPUT)
+		if (dateInputs.size() > 0) {
+			def input = dateInputs.get(0)
+			try {
+				js.executeScript("arguments[0].scrollIntoView({block:'center'});", input)
+				WebUI.delay(0.3)
+				wait.until(ExpectedConditions.elementToBeClickable(DISPUTES_DATE_INPUT))
+				input.click()
+			} catch (Exception e) {
+				js.executeScript("arguments[0].focus(); arguments[0].click();", input)
+			}
+			WebUI.delay(0.5)
+			try {
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(DISPUTES_DATEPICKER_PANEL + "//table")))
+			} catch (Exception ignored) {}
+			String panelScope = driver.findElements(By.xpath(DISPUTES_DATEPICKER_PANEL)).size() > 0 ? DISPUTES_DATEPICKER_PANEL : DATEPICKER_PANEL_FALLBACK
+			By day11 = By.xpath("${panelScope}//span[contains(@class,'p-datepicker-day') and normalize-space()='11']")
+			def dayEls = driver.findElements(day11)
+			if (dayEls.size() > 0) {
+				def toClick = dayEls.get(0)
+				try {
+					def parentTd = toClick.findElement(By.xpath("./parent::td"))
+					toClick = parentTd
+				} catch (Exception ignored) {}
+				try {
+					wait.until(ExpectedConditions.elementToBeClickable(toClick))
+					toClick.click()
+				} catch (Exception e) {
+					js.executeScript("arguments[0].click();", toClick)
+				}
+			}
 			WebUI.delay(0.5)
 		}
-		By statusLabel = By.xpath("//span[normalize-space()='Status']")
-		if (driver.findElements(statusLabel).size() > 0) {
-			wait.until(ExpectedConditions.elementToBeClickable(statusLabel)).click()
-			WebUI.delay(0.5)
+		// 2. Status filter: open Disputes status dropdown (not the Status column) and select options
+		if (driver.findElements(DISPUTES_STATUS_DROPDOWN).size() > 0) {
+			try {
+				wait.until(ExpectedConditions.elementToBeClickable(DISPUTES_STATUS_DROPDOWN)).click()
+				WebUI.delay(0.5)
+			} catch (Exception e) {
+				js.executeScript("arguments[0].click();", driver.findElement(DISPUTES_STATUS_DROPDOWN))
+				WebUI.delay(0.5)
+			}
 		}
-		By pendingConf = By.xpath("//span[contains(.,'Pending Confirmation')]")
+		By pendingConf = By.xpath("//li[@id='disputes-status-filter_1'] | //li[.//span[contains(.,'Pending Confirmation')]]")
 		if (driver.findElements(pendingConf).size() > 0) {
 			wait.until(ExpectedConditions.elementToBeClickable(pendingConf)).click()
 			WebUI.delay(0.5)
 		}
-		By approved = By.xpath("//span[normalize-space()='Approved']")
+		if (driver.findElements(DISPUTES_STATUS_DROPDOWN).size() > 0) {
+			wait.until(ExpectedConditions.elementToBeClickable(DISPUTES_STATUS_DROPDOWN)).click()
+			WebUI.delay(0.5)
+		}
+		By approved = By.xpath("//li[@id='disputes-status-filter_2'] | //li[.//span[normalize-space()='Approved']]")
 		if (driver.findElements(approved).size() > 0) {
 			wait.until(ExpectedConditions.elementToBeClickable(approved)).click()
 			WebUI.delay(0.5)
 		}
-		By rejected = By.xpath("//span[normalize-space()='Rejected']")
+		if (driver.findElements(DISPUTES_STATUS_DROPDOWN).size() > 0) {
+			wait.until(ExpectedConditions.elementToBeClickable(DISPUTES_STATUS_DROPDOWN)).click()
+			WebUI.delay(0.5)
+		}
+		By rejected = By.xpath("//li[@id='disputes-status-filter_3'] | //li[.//span[normalize-space()='Rejected']]")
 		if (driver.findElements(rejected).size() > 0) {
 			wait.until(ExpectedConditions.elementToBeClickable(rejected)).click()
 			WebUI.delay(0.5)
 		}
-		By all = By.xpath("//li[contains(.,'All')]")
+		if (driver.findElements(DISPUTES_STATUS_DROPDOWN).size() > 0) {
+			wait.until(ExpectedConditions.elementToBeClickable(DISPUTES_STATUS_DROPDOWN)).click()
+			WebUI.delay(0.5)
+		}
+		By all = By.xpath("//li[@id='disputes-status-filter_0'] | //li[.//span[normalize-space()='All']]")
 		if (driver.findElements(all).size() > 0) {
 			wait.until(ExpectedConditions.elementToBeClickable(all)).click()
 			WebUI.delay(0.5)
 		}
-		By clearFilters = By.xpath("//span[normalize-space()='Clear Filters']")
-		if (driver.findElements(clearFilters).size() > 0) {
-			wait.until(ExpectedConditions.elementToBeClickable(clearFilters)).click()
+		// 3. Clear Filters (Disputes button id is clear-filters-button)
+		if (driver.findElements(DISPUTES_CLEAR_FILTERS).size() > 0) {
+			def clearBtn = driver.findElement(DISPUTES_CLEAR_FILTERS)
+			try {
+				wait.until(ExpectedConditions.elementToBeClickable(clearBtn))
+				clearBtn.click()
+			} catch (Exception e) {
+				js.executeScript("arguments[0].click();", clearBtn)
+			}
 			WebUI.delay(0.5)
 		}
 	}
 
 	@When("the user types \"(.*)\" in the Disputes search bar")
 	def typeInDisputesSearchBar(String searchText) {
-		By searchInput = By.xpath("//input[contains(@class,'disputes-search-input')]")
-		if (driver.findElements(searchInput).size() > 0) {
-			wait.until(ExpectedConditions.visibilityOfElementLocated(searchInput)).sendKeys(searchText)
+		if (driver.findElements(DISPUTES_SEARCH_INPUT).size() > 0) {
+			def input = wait.until(ExpectedConditions.visibilityOfElementLocated(DISPUTES_SEARCH_INPUT))
+			js.executeScript("arguments[0].scrollIntoView({block:'center'});", input)
+			WebUI.delay(0.3)
+			try {
+				input.clear()
+				input.sendKeys(searchText)
+			} catch (Exception e) {
+				js.executeScript("arguments[0].value = '';", input)
+				js.executeScript("arguments[0].value = arguments[1];", input, searchText)
+				js.executeScript("arguments[0].dispatchEvent(new Event('input', { bubbles: true }));", input)
+			}
 			WebUI.delay(1)
 		}
 	}
