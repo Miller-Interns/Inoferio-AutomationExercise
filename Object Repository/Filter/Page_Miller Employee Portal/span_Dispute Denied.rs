@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Dispute Denied</name>
+   <tag></tag>
+   <elementGuidId>68b756cb-75b2-4cae-9aeb-aa0986806fad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='history-status-filter_4']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#history-status-filter_4 > span.p-select-option-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;Dispute Denied&quot;i] >> span</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0d7ce854-dbb9-43e8-a637-1d031b267027</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-select-option-label</value>
+      <webElementGuid>1318f78e-b755-4e9f-bad4-a0eccccb3de9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>optionlabel</value>
+      <webElementGuid>4d9f48eb-d820-4332-8fa8-a2b25551a65a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dispute Denied</value>
+      <webElementGuid>fd397d65-560a-499d-8bd9-7e44992e6378</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;history-status-filter_4&quot;)/span[@class=&quot;p-select-option-label&quot;]</value>
+      <webElementGuid>cb69694d-56bc-4234-8c81-6dc1cf357bcd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='history-status-filter_4']/span</value>
+      <webElementGuid>674f235a-7152-4681-91d5-32d93444f671</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dispute Approved'])[1]/following::span[1]</value>
+      <webElementGuid>a506cd95-cc5b-440b-94b6-f63aaf16fdae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending Dispute'])[1]/following::span[2]</value>
+      <webElementGuid>323f8e0b-420e-473a-8797-e3b7bf87af4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paid'])[1]/preceding::span[1]</value>
+      <webElementGuid>d83481ff-da8d-4682-bccb-8614c04d5e45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/span</value>
+      <webElementGuid>92156de3-ca52-4541-b380-918073150326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Dispute Denied' or . = 'Dispute Denied')]</value>
+      <webElementGuid>d030d47d-f178-4a5c-a299-9e6789ae4d6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

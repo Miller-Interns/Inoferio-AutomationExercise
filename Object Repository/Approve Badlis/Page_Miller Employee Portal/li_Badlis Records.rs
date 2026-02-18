@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Badlis Records</name>
+   <tag></tag>
+   <elementGuidId>37b39078-ce55-436d-902b-1f7e337c801f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@id='badlis-records-link'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.space-y-3 > #badlis-records-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;Badlis Records&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>bada28e3-7711-4f88-aea2-3b71e9bafda8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex cursor-pointer items-center gap-3 rounded-lg px-3 py-2.5 transition-colors hover:bg-gray-50</value>
+      <webElementGuid>48347cb6-351d-455d-949d-e2bc75249ae1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>badlis-records-link</value>
+      <webElementGuid>914a389a-9ce7-46a2-874d-0beeb6b7e751</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Badlis Records</value>
+      <webElementGuid>406dfa7a-343d-4f99-af6a-bbb101cc2a4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__nuxt&quot;)/div[@class=&quot;min-h-screen overflow-y-auto bg-[#EFF3F8] md:h-screen md:overflow-hidden&quot;]/div[@class=&quot;flex min-h-screen flex-row md:h-full md:min-h-0&quot;]/div[@class=&quot;hidden h-full w-full flex-col border-r border-gray-200 bg-white md:flex md:w-60&quot;]/nav[@class=&quot;mt-4 flex-1 overflow-y-auto px-2&quot;]/ul[@class=&quot;space-y-3&quot;]/li[@id=&quot;badlis-records-link&quot;]</value>
+      <webElementGuid>eab72622-60d5-481e-a2c9-2b11168e412f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//li[@id='badlis-records-link'])[2]</value>
+      <webElementGuid>068af4f8-c0b4-401d-9944-5307870ab702</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__nuxt']/div/div/div[2]/nav/ul/li[5]</value>
+      <webElementGuid>130bba9b-4989-44ed-93c9-5247d9da4c77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Badlis'])[1]/following::li[1]</value>
+      <webElementGuid>5124f3a6-589f-43e9-97cc-de19f1b531b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employees'])[1]/following::li[2]</value>
+      <webElementGuid>c31c7992-d829-440c-aa9d-fcc45fbe8975</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/nav/ul/li[5]</value>
+      <webElementGuid>10cf5a5f-a851-4f0b-b3d0-52d60d27ba3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@id = 'badlis-records-link' and (text() = 'Badlis Records' or . = 'Badlis Records')]</value>
+      <webElementGuid>aead7dce-9929-48b8-be0c-b8f28dbd8066</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

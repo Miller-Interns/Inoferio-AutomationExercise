@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Showing 81 to 90 of 96 entries_p-icon p_383ded</name>
+   <tag></tag>
+   <elementGuidId>1cd64199-f180-4b94-9452-fa822196eb7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by:'])[3]/preceding::*[name()='svg'][4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;First Page&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>f473e2ff-3749-40fa-b527-9e6d985f63ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>14</value>
+      <webElementGuid>c6a334be-7939-4124-b68c-2575e99ec162</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>14</value>
+      <webElementGuid>1d858a15-1fac-4be4-8470-0039beb5623f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 14 14</value>
+      <webElementGuid>5d3830d5-9285-470f-87d2-7eef22e39823</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>7f4611fc-ce9d-4599-b0ca-0993e5ce6a12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>484131c7-07d3-43c8-9681-56831ae08698</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-icon p-paginator-first-icon</value>
+      <webElementGuid>2724fac7-56aa-48d5-86c4-300f9b8afd46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>64da42dc-172f-4079-b526-68860f7ed1a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>firsticon</value>
+      <webElementGuid>c49e9c39-fba9-4f9e-9df7-7f1f95c52a9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_2_5_tabpanel_1&quot;)/div[@class=&quot;flex h-full min-h-0 flex-col gap-4&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-auto&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-auto&quot;]/div[@class=&quot;mt-2 flex w-full flex-shrink-0 justify-end bg-[#F8F9FA] px-2 py-2&quot;]/nav[1]/div[@class=&quot;p-paginator p-component&quot;]/div[@class=&quot;p-paginator-content&quot;]/button[@class=&quot;p-paginator-first&quot;]/svg[@class=&quot;p-icon p-paginator-first-icon&quot;]</value>
+      <webElementGuid>32cbdcf2-d44a-4ff3-b9af-9c493e505aa9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by:'])[3]/preceding::*[name()='svg'][4]</value>
+      <webElementGuid>223a4151-e60a-46f6-970a-2475ae6963fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear Filters'])[3]/preceding::*[name()='svg'][5]</value>
+      <webElementGuid>e1d2c05f-1274-4aa3-8cfc-2bbf623491ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

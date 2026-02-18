@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_3</name>
+   <tag></tag>
+   <elementGuidId>e463fef8-3104-450e-8925-86e94fb0aab1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pv_id_2_3_tabpanel_1']/div/div[2]/div/div/div/table/tbody/tr/td[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-datatable.p-component.p-datatable-scrollable.p-datatable-flex-scrollable.disputes-table.flex.h-full.min-h-0.flex-1.flex-col.overflow-hidden > div.p-datatable-table-container > table.p-datatable-table.p-datatable-scrollable-table > tbody.p-datatable-tbody.overflow-auto > tr.p-row-even > td:nth-of-type(3) > div.flex.justify-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;2026-01-29 Maryjoy Villacampa 3 ₱150.00 I did take out the trash Pending Confirmation&quot;i] >> div >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>45c7dd28-74e7-477e-af7c-0d555e4c9910</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex justify-center</value>
+      <webElementGuid>a0d48836-0e0f-446d-9c8f-a3253e5bbc57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>2ac7704d-abdc-47c2-9db0-cc8b24bd9b07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_2_3_tabpanel_1&quot;)/div[@class=&quot;relative flex h-full min-h-0 flex-col&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-auto&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-hidden&quot;]/div[@class=&quot;p-datatable p-component p-datatable-scrollable p-datatable-flex-scrollable disputes-table flex h-full min-h-0 flex-1 flex-col overflow-hidden&quot;]/div[@class=&quot;p-datatable-table-container&quot;]/table[@class=&quot;p-datatable-table p-datatable-scrollable-table&quot;]/tbody[@class=&quot;p-datatable-tbody overflow-auto&quot;]/tr[@class=&quot;p-row-even&quot;]/td[3]/div[@class=&quot;flex justify-center&quot;]</value>
+      <webElementGuid>3ccc78d8-2579-4139-b2e8-a6f945b3b8cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pv_id_2_3_tabpanel_1']/div/div[2]/div/div/div/table/tbody/tr/td[3]/div</value>
+      <webElementGuid>8d9901ff-62c5-4ee8-b124-48fb994fbc5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maryjoy Villacampa'])[1]/following::div[1]</value>
+      <webElementGuid>ee879f9a-6e2d-49f7-95cb-fa5f6a078e22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[2]/following::div[3]</value>
+      <webElementGuid>1c6134d8-206d-4cee-b876-41e4e0d53471</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₱150.00'])[1]/preceding::div[1]</value>
+      <webElementGuid>f472c218-1c56-4483-9643-5cec4f235767</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I did take out the trash'])[1]/preceding::div[2]</value>
+      <webElementGuid>abbaea3f-8a0c-4880-8b8b-c730226bef95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/table/tbody/tr/td[3]/div</value>
+      <webElementGuid>0a3de5ff-6aa3-46c0-bc98-4c887cebb1da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '3' or . = '3')]</value>
+      <webElementGuid>17be85eb-1e97-4251-9a17-ed518a11d087</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

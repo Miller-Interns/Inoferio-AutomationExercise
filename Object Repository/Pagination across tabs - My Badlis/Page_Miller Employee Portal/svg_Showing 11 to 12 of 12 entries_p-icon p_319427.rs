@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Showing 11 to 12 of 12 entries_p-icon p_319427</name>
+   <tag></tag>
+   <elementGuidId>4df8fe11-edce-461f-be8e-f48315e4a12a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='₱500.00'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Previous Page&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>b55f13d0-bcc8-4e85-a40e-105f1369ef88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>14</value>
+      <webElementGuid>269a4442-ce37-4145-a8cd-6c666aa76b18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>14</value>
+      <webElementGuid>663480ab-e3aa-43a8-9c19-5bd6b6cc8207</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 14 14</value>
+      <webElementGuid>e424ba3a-0a25-4ecb-bdab-6935fa6fbbf6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>1fba5161-09a4-4c25-b7c3-0dcd98f1deb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>3cdbd0fa-23bf-4d2c-9346-c2ca3a3db110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-icon p-paginator-prev-icon</value>
+      <webElementGuid>6b84cc14-91da-40cc-87ef-60264fbe35a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>061018f7-437d-47b3-9b50-440d38aa1eaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>previcon</value>
+      <webElementGuid>d2be5b42-1aa4-4f54-ac13-73a902ab1214</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_2_5_tabpanel_2&quot;)/div[@class=&quot;flex h-full min-h-0 flex-col gap-4&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-auto&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-auto&quot;]/div[@class=&quot;mt-2 flex w-full flex-shrink-0 justify-end bg-[#F8F9FA] px-2 py-2&quot;]/nav[1]/div[@class=&quot;p-paginator p-component&quot;]/div[@class=&quot;p-paginator-content&quot;]/button[@class=&quot;p-paginator-prev&quot;]/svg[@class=&quot;p-icon p-paginator-prev-icon&quot;]</value>
+      <webElementGuid>8223c28b-bf19-40ff-99c3-7cfb987711dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₱500.00'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>e722eea3-a8c4-434c-b85b-d8845788efc1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Date</name>
+   <tag></tag>
+   <elementGuidId>fdd5f99d-463c-48d6-b795-c91a7166bf9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pv_id_2_3_tabpanel_1']/div/div[2]/div/div/div/table/thead/tr/th/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-datatable.p-component.p-datatable-scrollable.p-datatable-flex-scrollable.disputes-table.flex.h-full.min-h-0.flex-1.flex-col.overflow-hidden > div.p-datatable-table-container > table.p-datatable-table.p-datatable-scrollable-table > thead.p-datatable-thead > tr > th.p-datatable-header-cell.p-datatable-sortable-column > div.p-datatable-column-header-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=columnheader[name=&quot;Date&quot;i] >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b5f84a99-8cd7-45d9-b723-2f461aabbf94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-datatable-column-header-content</value>
+      <webElementGuid>5b100a8d-a8dc-4bb5-a49d-232db1c407cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>columnheadercontent</value>
+      <webElementGuid>8e55a135-0a1e-4d95-bbb4-84b6e3743a85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Date</value>
+      <webElementGuid>9ab73434-9d47-4f6a-90c4-04e00c0933bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_2_3_tabpanel_1&quot;)/div[@class=&quot;relative flex h-full min-h-0 flex-col&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-auto&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-hidden&quot;]/div[@class=&quot;p-datatable p-component p-datatable-scrollable p-datatable-flex-scrollable disputes-table flex h-full min-h-0 flex-1 flex-col overflow-hidden&quot;]/div[@class=&quot;p-datatable-table-container&quot;]/table[@class=&quot;p-datatable-table p-datatable-scrollable-table&quot;]/thead[@class=&quot;p-datatable-thead&quot;]/tr[1]/th[@class=&quot;p-datatable-header-cell p-datatable-sortable-column&quot;]/div[@class=&quot;p-datatable-column-header-content&quot;]</value>
+      <webElementGuid>b63aa49b-4bb5-49de-98c0-840a478d7051</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pv_id_2_3_tabpanel_1']/div/div[2]/div/div/div/table/thead/tr/th/div</value>
+      <webElementGuid>b6a8e966-1f95-4786-8b59-bb72f9a3e8a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear Filters'])[2]/following::div[6]</value>
+      <webElementGuid>cdd6b33a-6866-4606-8690-669be57e46ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Name'])[1]/preceding::div[1]</value>
+      <webElementGuid>7299dd08-7ee1-4d27-ab94-d8255f83a69c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/table/thead/tr/th/div</value>
+      <webElementGuid>3dff71f2-e526-4c33-9d76-78222949a35f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Date' or . = 'Date')]</value>
+      <webElementGuid>350328c4-7c05-4118-b056-2d329aa3bb03</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

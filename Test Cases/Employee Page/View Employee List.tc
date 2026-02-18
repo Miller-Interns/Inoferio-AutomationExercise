@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Employee List</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>919f5dfa-0e5c-44a2-b3a0-bdd2b3031bfc</testCaseGuid>
+</TestCaseEntity>

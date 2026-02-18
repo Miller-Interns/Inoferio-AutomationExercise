@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Date</name>
+   <tag></tag>
+   <elementGuidId>d7552aae-26fc-49e0-83fc-e4a0aa2b23af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pv_id_2_5_tabpanel_2']/div/div[2]/div/div/div/table/thead/tr/th/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pv_id_2_5_tabpanel_2 > div.flex.h-full.min-h-0.flex-col.gap-4 > div.flex.min-h-0.flex-1.flex-col.overflow-auto > div.flex.min-h-0.flex-1.flex-col.overflow-auto > div.p-datatable.p-component.p-datatable-scrollable.p-datatable-flex-scrollable.badlis-table.flex.h-full.min-h-0.flex-1.flex-col.overflow-hidden > div.p-datatable-table-container > table.p-datatable-table.p-datatable-scrollable-table > thead.p-datatable-thead > tr > th.p-datatable-header-cell.p-datatable-sortable-column > div.p-datatable-column-header-content > span.p-datatable-column-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#pv_id_2_5_tabpanel_2 >> internal:text=&quot;Date&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dade730d-16cb-43a1-8ceb-1214936392ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-datatable-column-title</value>
+      <webElementGuid>a45370f4-e884-4ffa-8423-c4ebb4ae2c12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>columntitle</value>
+      <webElementGuid>2a7c37a4-3f0c-453c-9132-4706ded70479</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Date</value>
+      <webElementGuid>98f938a2-757d-4060-ad8e-fc626d64d7dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_2_5_tabpanel_2&quot;)/div[@class=&quot;flex h-full min-h-0 flex-col gap-4&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-auto&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-auto&quot;]/div[@class=&quot;p-datatable p-component p-datatable-scrollable p-datatable-flex-scrollable badlis-table flex h-full min-h-0 flex-1 flex-col overflow-hidden&quot;]/div[@class=&quot;p-datatable-table-container&quot;]/table[@class=&quot;p-datatable-table p-datatable-scrollable-table&quot;]/thead[@class=&quot;p-datatable-thead&quot;]/tr[1]/th[@class=&quot;p-datatable-header-cell p-datatable-sortable-column&quot;]/div[@class=&quot;p-datatable-column-header-content&quot;]/span[@class=&quot;p-datatable-column-title&quot;]</value>
+      <webElementGuid>e038d773-5e52-4f09-b9d7-81064d18fe10</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pv_id_2_5_tabpanel_2']/div/div[2]/div/div/div/table/thead/tr/th/div/span</value>
+      <webElementGuid>32b45d5f-bb39-4cee-862d-9ad74bca88b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear Filters'])[3]/following::span[2]</value>
+      <webElementGuid>52f48b81-8297-41b1-8827-5df397316c3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by:'])[3]/following::span[4]</value>
+      <webElementGuid>bcfb0db0-fc43-4e3e-8c9e-4ed987c46065</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Name'])[1]/preceding::span[2]</value>
+      <webElementGuid>2c2a1b75-f104-4588-92a6-c43fe682338a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[1]/preceding::span[3]</value>
+      <webElementGuid>bcb26d0f-85fa-41eb-93c0-2c56bd097f8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div/div/table/thead/tr/th/div/span</value>
+      <webElementGuid>c2763ec8-230e-4a25-97c2-0c9ad91efa26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Date' or . = 'Date')]</value>
+      <webElementGuid>3faa3ca3-b0ad-4ec5-a8ed-5b2163923365</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

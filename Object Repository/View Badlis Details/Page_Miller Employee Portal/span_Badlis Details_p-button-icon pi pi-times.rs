@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Badlis Details_p-button-icon pi pi-times</name>
+   <tag></tag>
+   <elementGuidId>520127d7-9715-48cc-b6d1-93e31510e76d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='close-button']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-button-icon.pi.pi-times</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; �A0&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5bc10e0c-136b-4f64-83ab-ea2e16eb40aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-icon pi pi-times</value>
+      <webElementGuid>826242f2-9fe8-4f21-8abd-ac4a03176284</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p</name>
+      <type>Main</type>
+      <value>left</value>
+      <webElementGuid>c78834e4-389d-4a04-a329-a344068a5746</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>icon</value>
+      <webElementGuid>8b3c5fce-5e49-4064-9dff-2c78dc021ade</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;close-button&quot;)/span[@class=&quot;p-button-icon pi pi-times&quot;]</value>
+      <webElementGuid>81fa30a3-8d08-4418-aebf-9dc897639bc8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='close-button']/span</value>
+      <webElementGuid>97436469-2452-4b36-8084-e3016d309250</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div/button/span</value>
+      <webElementGuid>5f1d3dc5-3f92-453e-8c28-d71ea5de2018</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

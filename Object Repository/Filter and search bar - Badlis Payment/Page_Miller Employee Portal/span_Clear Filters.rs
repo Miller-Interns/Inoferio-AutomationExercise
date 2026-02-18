@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Clear Filters</name>
+   <tag></tag>
+   <elementGuidId>57f58550-06d5-4174-96ee-67017238c25b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@id='clear-filter-button']/span)[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pv_id_1_3_tabpanel_2 > div.flex.h-full.min-h-0.flex-col > div.flex.w-full.items-center.justify-between.gap-6.mb-4 > div.flex.items-center.gap-3 > #clear-filter-button > span.p-button-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Clear Filters&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>910dfbcd-a1f9-451a-8c2c-3162f5e2fb87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-label</value>
+      <webElementGuid>5e078a46-7cab-48f9-87a1-7407e57a37af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>6ff011cb-6c1b-413c-81cb-16e27c4640c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Clear Filters</value>
+      <webElementGuid>d938c1a9-e984-425c-b72d-726cc09fabea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_1_3_tabpanel_2&quot;)/div[@class=&quot;flex h-full min-h-0 flex-col&quot;]/div[@class=&quot;flex w-full items-center justify-between gap-6 mb-4&quot;]/div[@class=&quot;flex items-center gap-3&quot;]/button[@id=&quot;clear-filter-button&quot;]/span[@class=&quot;p-button-label&quot;]</value>
+      <webElementGuid>e1bced32-f2fc-448f-8dec-5104545160c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//button[@id='clear-filter-button']/span)[3]</value>
+      <webElementGuid>f68237e3-47f7-42e7-92ff-5041067c6915</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by:'])[3]/following::span[2]</value>
+      <webElementGuid>82878cbd-1060-4060-bbcc-2079f3c0079d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[2]/preceding::span[3]</value>
+      <webElementGuid>45076c0a-dda2-4648-a9a4-c796c279e188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Name'])[2]/preceding::span[5]</value>
+      <webElementGuid>370958b2-bcd8-4699-9dc8-46fad7475eac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/button/span</value>
+      <webElementGuid>e0814b83-0cc9-447c-925e-a3f8cd279f24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Clear Filters' or . = 'Clear Filters')]</value>
+      <webElementGuid>5a0bc1ac-4aad-4dce-9028-ea6b397c7422</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

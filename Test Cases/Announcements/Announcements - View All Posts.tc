@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Announcements - View All Posts</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d3343e3-9a58-42c0-83b0-40658f0bb003</testCaseGuid>
+</TestCaseEntity>

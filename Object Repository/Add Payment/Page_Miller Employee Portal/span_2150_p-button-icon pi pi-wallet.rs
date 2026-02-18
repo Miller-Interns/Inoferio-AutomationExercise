@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_2150_p-button-icon pi pi-wallet</name>
+   <tag></tag>
+   <elementGuidId>6dd4761a-335e-4cff-afd0-4c8e9cdb08ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pv_id_1_3_tabpanel_0']/div/div/div[2]/div/div/div/table/tbody/tr/td[6]/div/button[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-button-icon.pi.pi-wallet</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; �A0&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9e770a5b-295a-48d0-b3db-6d8d48b62c35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-icon pi pi-wallet</value>
+      <webElementGuid>bf1e5391-a123-4d61-b92c-f8e4f8aba1f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p</name>
+      <type>Main</type>
+      <value>left</value>
+      <webElementGuid>fe650ad7-e7f0-460a-a403-d266fac7a9b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>icon</value>
+      <webElementGuid>7fcbe000-4a3a-4699-bc7f-7d8d2522b9eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_1_3_tabpanel_0&quot;)/div[@class=&quot;flex h-full min-h-0 flex-col&quot;]/div[@class=&quot;flex h-full min-h-0 flex-col&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-auto&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-hidden&quot;]/div[@class=&quot;p-datatable p-component p-datatable-scrollable p-datatable-flex-scrollable badlis-table flex h-full min-h-0 flex-1 flex-col overflow-hidden&quot;]/div[@class=&quot;p-datatable-table-container&quot;]/table[@class=&quot;p-datatable-table p-datatable-scrollable-table&quot;]/tbody[@class=&quot;p-datatable-tbody overflow-auto&quot;]/tr[@class=&quot;p-row-even&quot;]/td[6]/div[@class=&quot;flex justify-center gap-2&quot;]/button[@class=&quot;p-button p-component p-button-icon-only p-button-rounded p-button-text p-button-success&quot;]/span[@class=&quot;p-button-icon pi pi-wallet&quot;]</value>
+      <webElementGuid>191ac8df-db15-4eda-97b9-ead77f5b6368</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pv_id_1_3_tabpanel_0']/div/div/div[2]/div/div/div/table/tbody/tr/td[6]/div/button[2]/span</value>
+      <webElementGuid>2c0057d0-71c8-44f2-9308-59a521304347</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/div/button[2]/span</value>
+      <webElementGuid>5b271799-0b36-47b6-8446-247407600301</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

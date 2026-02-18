@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_1</name>
+   <tag></tag>
+   <elementGuidId>6645ccf1-700d-41c2-909b-6183b55dd21a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pv_id_1_3_tabpanel_1']/div/div[2]/div/div/div/table/tbody/tr/td[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-datatable.p-component.p-datatable-scrollable.p-datatable-flex-scrollable.disputes-table.flex.h-full.min-h-0.flex-1.flex-col.overflow-hidden > div.p-datatable-table-container > table.p-datatable-table.p-datatable-scrollable-table > tbody.p-datatable-tbody.overflow-auto > tr.p-row-even > td:nth-of-type(3) > div.flex.justify-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;1&quot;s] >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e6779fcd-e0b0-4438-91c6-d304f865c5fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex justify-center</value>
+      <webElementGuid>633d67a7-ba2c-429c-884e-f092d9abb40f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>4fd523f2-76f2-4fa8-8084-259586aa220a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_1_3_tabpanel_1&quot;)/div[@class=&quot;relative flex h-full min-h-0 flex-col&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-auto&quot;]/div[@class=&quot;flex min-h-0 flex-1 flex-col overflow-hidden&quot;]/div[@class=&quot;p-datatable p-component p-datatable-scrollable p-datatable-flex-scrollable disputes-table flex h-full min-h-0 flex-1 flex-col overflow-hidden&quot;]/div[@class=&quot;p-datatable-table-container&quot;]/table[@class=&quot;p-datatable-table p-datatable-scrollable-table&quot;]/tbody[@class=&quot;p-datatable-tbody overflow-auto&quot;]/tr[@class=&quot;p-row-even&quot;]/td[3]/div[@class=&quot;flex justify-center&quot;]</value>
+      <webElementGuid>49f1f0f6-cf2b-4e25-9b14-c0bd5e6bca69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pv_id_1_3_tabpanel_1']/div/div[2]/div/div/div/table/tbody/tr/td[3]/div</value>
+      <webElementGuid>57973b42-7de2-4c7b-9960-0cd56b2157d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maryjoy Villacampa'])[1]/following::div[1]</value>
+      <webElementGuid>d35d53ce-e122-486a-a313-c5a1383cc27f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[2]/following::div[3]</value>
+      <webElementGuid>80e5909d-5281-473c-acf4-169258b04613</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₱50.00'])[1]/preceding::div[1]</value>
+      <webElementGuid>e4c54954-3883-4c92-9ef9-71572717e47a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending Confirmation'])[1]/preceding::div[2]</value>
+      <webElementGuid>b72f6626-5641-4140-ad7d-2d1d2d5a7364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/table/tbody/tr/td[3]/div</value>
+      <webElementGuid>b22e4eea-aa8f-4497-ac08-a10302aa9cd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1' or . = '1')]</value>
+      <webElementGuid>9c74f04e-3e27-440e-8f94-1b88fabec270</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

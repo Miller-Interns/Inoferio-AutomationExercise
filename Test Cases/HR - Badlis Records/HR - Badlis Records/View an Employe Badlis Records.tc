@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View an Employe Badlis Records</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f30ca405-7c72-4830-a1d9-2d46e3931296</testCaseGuid>
+</TestCaseEntity>

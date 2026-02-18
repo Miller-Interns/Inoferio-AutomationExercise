@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add Payment_p-button-icon pi pi-times</name>
+   <tag></tag>
+   <elementGuidId>5f019e48-001d-40e4-9eb7-f60d0f59a10c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[9]/div/div/div/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-button-icon.pi.pi-times</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; �A0&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4a081bd7-6d5d-4b70-aec2-8cd6109329d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-icon pi pi-times</value>
+      <webElementGuid>e3b7c1f9-e87a-480e-b1a5-b6a5adeefe50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p</name>
+      <type>Main</type>
+      <value>left</value>
+      <webElementGuid>6ff9ae2f-c121-49ea-b3b7-a2241081dd5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>icon</value>
+      <webElementGuid>35dc11b4-b2e9-498d-a73c-d652aba6da29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;p-dialog-mask p-overlay-mask p-overlay-mask-enter&quot;]/div[@class=&quot;p-dialog p-component border-0 rounded-lg shadow-lg&quot;]/div[@class=&quot;p-dialog-header&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;flex w-full items-start justify-between&quot;]/button[@class=&quot;p-button p-component p-button-icon-only close_button !items-start !text-xs&quot;]/span[@class=&quot;p-button-icon pi pi-times&quot;]</value>
+      <webElementGuid>6bf7158d-7ac6-440e-9eee-7c6806c19514</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div/div/button/span</value>
+      <webElementGuid>9fa28859-4d9b-486d-a998-edb9bb16767f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
